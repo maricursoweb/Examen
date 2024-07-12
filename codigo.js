@@ -1,4 +1,4 @@
-const fotosMarcadas = 0;
+let fotosMarcadas = 0;
 
 function marcarFoto(evt) {
     if(evt.target.dataset.marcada == undefined) {
